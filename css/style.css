@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/bg.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    min-height: 200vh;
+    width: 100%;
+   
+}
+.main_form{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 100px;
+     background: rgba(0,0,0, 0.8);
+
+    
+    
+
+   
+
+}
+.main_form h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+padding-top: 50px;
+    color:#fff;
+
+}
+form{
+    padding: 70px;
+}
+
+
+
+.form form label{
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+.form form input{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+   
+    
+    
+
+}
+textarea{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 20px; 
+
+}
+
+.form form select{
+    width: 100%;
+    font-size: 20px;
+    color:#fff ;
+    line-height: 3;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    background: -webkit-linear-gradient(45deg,#00dbde,#fc00ff);
+    margin-top: 20px;
+
+}
+
+button{
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 50px;
+    background: -webkit-linear-gradient(45deg,#00dbde,#fc00ff);
+    font-size: 20px;
+    transition: .5 all ease-in-out;
+}
+
+button:hover{;
+    background: -webkit-linear-gradient(45deg,#00dbde,#fc00ff);
+}
+button:hover i{
+    margin-left: 5px;
+}
